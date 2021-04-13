@@ -1,0 +1,35 @@
+@import '../../sass/globals';
+.header-container {
+    background-color: $color-secondary;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 10px 50px;
+    
+}
+
+nav img {
+    object-fit: contain;
+
+    
+}
+
+.button-profile {
+    box-sizing:border-box;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    
+    .imgCircle {
+        width: 80%;
+        margin: auto;
+        object-fit: contain;
+        border-radius: 50%;
+        
+    }
+    
+}
+

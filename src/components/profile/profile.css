@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.profile {
+  margin-top: 150px;
+}
+
+.profile .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.profile .card h1 {
+  margin-top: 30px;
+}
+
+.profile .card h2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.profile .card .user-picture {
+  width: 50%;
+  margin: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.profile .card .button-logout {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: transparent;
+}
+
+.profile .card .button-logout img {
+  width: 100%;
+}
+
+.profile .card .back-boardlist {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 30px;
+  display: inline-block;
+  color: whitesmoke;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.profile .card .back-boardlist:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=profile.css.map */
